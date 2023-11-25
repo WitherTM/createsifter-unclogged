@@ -1,1 +1,1 @@
-com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+com.oierbravo.createsifterunclogged.compat.kubejs.KubeJSCreatesifterPlugin

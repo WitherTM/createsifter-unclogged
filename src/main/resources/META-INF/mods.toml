@@ -1,37 +1,37 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-issueTrackerURL="https://github.com/oierbravo/create-sifter/issues"
+#issueTrackerURL="https://github.com/oierbravo/create-sifter/issues"
 license="MIT"
 
 [[mods]]
 
-modId = "createsifter"
-version = "${file.jarVersion}"
-updateJSONURL = "https://api.modrinth.com/updates/create-sifting/forge_updates.json"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/create-sifting"
-displayName = "Create Sifter"
+modId = "createsifter_unclogged"
+version = "1.20.1-1.8.1.f-26"
+#updateJSONURL = "https://api.modrinth.com/updates/create-sifting/forge_updates.json"
+#displayURL="https://www.curseforge.com/minecraft/mc-mods/create-sifting"
+displayName = "Create Sifter - Unclogged"
 logoFile="logo.png"
 description = '''
-Gather resources sifting
+Gather resources sifting (hopefully temporarily maintained by WitherTM)
 '''
 
-[[dependencies.createsifter]]
+[[dependencies.createsifter_unclogged]]
     modId="forge"
     mandatory=true
-    versionRange="[47.0.0,)"
+    versionRange="[47.2.0,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.createsifter]]
+[[dependencies.createsifter_unclogged]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20,1.21)"
+    versionRange= "[1.20,1.21)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.createsifter]]
+[[dependencies.createsifter_unclogged]]
     modId = "create"
     mandatory = true
-    versionRange="[0.5.1.e,)"
+    versionRange="[0.5.1.f,)"
     ordering = "AFTER"
     side = "BOTH"
